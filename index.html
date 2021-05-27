@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="text/html" charset="UTF-8" http-equiv="content-type">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Globus</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./package/css/swiper.min.css">
+
+  <script src="package/js/swiper.min.js" defer></script>
+  <script defer src="js/app.js"></script>
+
+</head>
+
+<body>
+  <header>
+    <div class="header-content">
+
+      <div class="image-wrapper">
+        <img src="img/logo.jpg" alt="logo">
+      </div>
+
+      <div class="center-menu-wrapper">
+
+        <ul>
+          <li>Märkte</li>
+          <li>Bewusst Leben</li>
+          <li>Sortiment</li>
+          <li>Services</li>
+          <li>Unternehmen</li>
+          <li>Mein Globus</li>
+        </ul>
+
+        <div class="sub-menu">
+          <span>Startseite</span>
+          <i class="fa fa-caret-right"></i>
+          <span>Märkete</span>
+          <i class="fa fa-caret-right"></i>
+          <span>Dutenhofe</span>
+          <i class="fa fa-caret-right"></i>
+          <span>Obst & Gemüse</span>
+          <i class="fa fa-caret-right"></i>
+          <span>Cherry Tomaten</span>
+        </div>
+      </div>
+
+
+      <div class="right-menu">
+
+        <div class="right-up">
+          <span><i class="fa fa-user"></i></span>
+          <span>Anmelden</span>
+          <span>Kontakt</span>
+          <span>Newsletter</span>
+        </div>
+
+        <div class="right-down">
+
+          <span><i class="fa fa-youtube"></i></span>
+          <span><i class="fa fa-facebook"></i></span>
+          <span><i class="fa fa-instagram"></i></span>
+        </div>
+
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="section section1">
+
+      <div class="section-content">
+        <header>
+          <div class="menus">
+
+            <div class="group" id="allProductGroup">
+              <i class="fa fa-shopping-cart"></i>
+              <!-- <select name="Category" id="">
+                <option value="1">Alle Produckte</option>
+                <option value="2">Option2</option>
+                <option value="3">Option3</option>
+              </select> -->
+              <button id="allProductsBtn">Alle Produkte</button>
+            </div>
+
+            <div class="group">
+              <i class="fa fa-shopping-cart"></i>
+              <select name="Subcat" id="">
+                <option value="1">Einkaufsliste</option>
+                <option value="2">Subcat2</option>
+                <option value="3">Subcat3</option>
+              </select>
+            </div>
+
+          </div>
+
+          <div class="cart-group">
+            <img src="/img/logo.jpg" alt="Cart Icon">
+            <div class="right-column">
+              <span>24 Artikel</span>
+              <span>gemerkt</span>
+            </div>
+          </div>
+
+        </header>
+
+        <!-- open -->
+        <div class="all-products">
+          <div class="menu">
+            <div class="menu-item">
+              <i class="fa fa-car"></i>
+              <span>Autozubehör</span>
+              <i class="fa fa-angle-right"></i>
+            </div>
+            <div class="menu-item">
+              <i class="fa fa-search"></i>
+              <span>Drogerie</span>
+              <i class="fa fa-angle-right"></i>
+            </div>
+            <div class="menu-item">
+              <i class="fa fa-apple"></i>
+              <span>Essen & Trinken</span>
+              <i class="fa fa-angle-right"></i>
+            </div>
+            <div class="menu-item">
+              <i class="fa fa-search"></i>
+              <span>Globus-Eigenproduktion</span>
+              <i class="fa fa-angle-right"></i>
+            </div>
+            <div class="menu-item">
+              <i class="fa fa-bed"></i>
+              <span>Haushalt & Whnen</span>
+              <i class="fa fa-angle-right"></i>
+            </div>
+            <div class="menu-item">
+              <i class="fa fa-pencil"></i>
+              <span>Foto, Lesen & Schreiben</span>
+              <i class="fa fa-angle-right"></i>
+            </div>
+            <div class="menu-item">
+              <i class="fa fa-apple"></i>
+              <span>Gastronomie</span>
+              <i class="fa fa-angle-right"></i>
+            </div>
+            <div class="menu-item">
+              <i class="fa fa-apple"></i>
+              <span>Scmuck</span>
+              <i class="fa fa-angle-right"></i>
+            </div>
+            <div class="menu-item">
+              <i class="fa fa-apple"></i>
+              <span>Textilien, Accessoires & Sport</span>
+              <i class="fa fa-angle-right"></i>
+            </div>
+            <div class="menu-item">
+              <i class="fa fa-gamepad"></i>
+              <span>Spilen</span>
+              <i class="fa fa-angle-right"></i>
+            </div>
+          </div>
+          <div class="right-content">
+            <h2>Schon probiert?</h2>
+            <p>Saftinges Obst, knuspring-warme Brötchen und hochwertiges Fleisch aus der Region-wir sind sicher, dass in
+              unserem Angebot für jeden etwas dabei ist. Wir möchten natürlich, dass diese Produkte zu Ihren Wünschen
+              passen. Deshalb helfen Ihnen auf diesen Seiten und in unserem SB-Warenhäusern viele Globus Mitarbeiter
+              weiter. Erfahren Sie mehr über unsere hohen Ansprüche and Qualität und Frische.</p>
+          </div>
+        </div>
+
+        <!-- closed -->
+        <div class="item-box">
+          <img src="img/Tomatte.png" alt="Product image">
+          <div class="details">
+            <div class="first">
+
+              <div class="title-group">
+                <span>Cherry Tomaten</span>
+                <span>Globus</span>
+              </div>
+
+              <div class="right-buttons">
+                <button>ANGEBOT</button>
+                <button>NEU</button>
+              </div>
+            </div>
+
+            <div class="second">
+
+              <div class="left">
+                <span id="item-price">2,10€</span>
+                <span id="prevPrice">2,60</span>
+              </div>
+
+              <div class="right">
+                <span>Soll es eine andere Größe sein?</span>
+              </div>
+            </div>
+
+            <div class="third">
+
+              <div class="left">
+                <span>inkl.MwSt.zzgl.Versandkosten</span>
+                <span>500 g (1 kg= 4.20 €)</span>
+              </div>
+
+              <div class="right" id="weight-buttons">
+                <button data-weight="500" data-articleid="article1">500 g</button>
+                <button data-weight="300" data-articleid="article1">300 g</button>
+                <button data-weight="250" data-articleid="article1">250 g</button>
+              </div>
+
+            </div>
+
+            <div class="fourth">
+
+              <div class="left">
+                <span>ich brauche mehr</span>
+                <img src="img/curver-down.png" alt="">
+              </div>
+
+              <div class="right">
+                <span>vergleichen</span>
+                <img src="img/two.png" alt="">
+              </div>
+
+            </div>
+
+            <div class="fifth">
+
+              <div class="left">
+                <span>weniger</span>
+                <img src="img/curved-up.png" alt="">
+              </div>
+
+              <div class="center">
+                <button>-</button>
+                <input type="text">
+                <button>+</button>
+              </div>
+
+              <div class="right">
+                <span>+</span>
+                <span>Auf die Einkaufsliste</span>
+                <img src="img/one.png" alt="">
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+        <div class="paragraph">
+          <h4>Immer frisch & lecker.</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, aliquam ducimus soluta unde necessitatibus,
+            aliquid, vitae velit quam fugit quidem est odio obcaecati adipisci laborum ea quia consequuntur corporis
+            laudantium. Lorem ipsum dolor sit amet consectetur adipisicing elit.laudantium. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit.laudantium. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+
+        </div>
+
+        <div class="cards">
+
+          <div class="card">
+            <img src="img/gluten.png" alt="Glutenfrei">
+            <span>GLUTENFREI</span>
+          </div>
+
+          <div class="card">
+            <img src="img/bio.png" alt="Bio">
+            <span>BIO</span>
+          </div>
+
+          <div class="card">
+            <img src="img/laktoze.png" alt="Laktozefrei">
+            <span>LAKTOSEFREI</span>
+          </div>
+
+          <div class="card">
+            <img src="img/vegan.png" alt="Vegan">
+            <span>VEGAN</span>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section2">
+      <article class="article1">
+        <div class="section-content">
+          <header>
+            <ul id="centerMenu">
+              <!-- <li><a href="">DDDD</a></li>
+            <li><a href="">HHH</a></li>
+            <li><a href="">KKKK</a></li> -->
+              <li data-id="display1" class="selected">Nährwertanagbe</li>
+              <li data-id="display2">Zutaten</li>
+              <li data-id="display3">Rezepte</li>
+            </ul>
+          </header>
+
+          <div class="display shown" id="display1">
+            <h3>Angaben beziehensie auf: 100 g Cherry Tomaten</h3>
+            <div class="content">
+              <div class="rows">
+                <div class="row">
+                  <span>Kilokalorien (kcal)</span>
+                  <span>17kcl</span>
+                </div>
+                <div class="row">
+                  <span>KiloJule (kJ)</span>
+                  <span>71KJ</span>
+                </div>
+                <div class="row">
+                  <span>Wasser</span>
+                  <span>94 g</span>
+                </div>
+                <div class="row">
+                  <span>Eiweiß, Proteine</span>
+                  <span>1 g</span>
+                </div>
+                <div class="row">
+                  <span>Fett</span>
+                  <span>0 g</span>
+                </div>
+                <div class="row">
+                  <span>Kohlenhydrate</span>
+                  <span>3 g</span>
+                </div>
+                <div class="row">
+                  <span>Ballaststoffe</span>
+                  <span>1 g</span>
+                </div>
+              </div>
+
+              <div class="description">
+                <div class="wrap">
+                  <h2>BEWUSST LEBEN MIT GLOBUS.</h2>
+                  <button>Mehr erfahren</button>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="display" id="display2">
+            dva
+          </div>
+
+          <div class="display" id="display3">
+            tri
+          </div>
+
+        </div>
+      </article>
+
+      <article class="article2">
+        <div class="section-content">
+          <h2>Sie mögen bestimmt auch</h2>
+
+          <article class="swiper-container gallery-top">
+            <div id="preview-display" class="swiper-wrapper">
+              <!-- js -->
+            </div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next swiper-button-white arrow"></div>
+            <div class="swiper-button-prev swiper-button-white arrow"></div>
+          </article>
+
+        </div>
+
+        </div>
+      </article>
+
+    </section>
+    <section class="section3">
+
+      <article class="article1">
+        <h2>Kennen Sie unsere Eigenmarken?</h2>
+        <button>entdecken</button>
+      </article>
+
+      <article class="article2">
+        <h2>Bleiben Sie immer informiert</h2>
+        <div class="cards">
+
+          <div class="card">
+            <img src="./img/facebook.png" alt="Facebook">
+            <span>Facebook</span>
+          </div>
+
+          <div class="card">
+            <img src="./img/instagram.png" alt="Instagram">
+            <span>Instagram</span>
+          </div>
+
+          <div class="card">
+            <img src="./img/youtube.png" alt="YouTube">
+            <span>YouTube</span>
+          </div>
+
+          <div class="card">
+            <img src="./img/mail.png" alt="Newsletter">
+            <span>Newsletter</span>
+          </div>
+
+        </div>
+      </article>
+
+    </section>
+  </main>
+
+  <footer>
+    <img src="./img/white-arrow.png" alt="up">
+    <p>Nach oben</p>
+
+
+    <div class="second">
+
+      <div class="column">
+        <span>Märkte</span>
+      </div>
+
+      <div class="column">
+        <span>Bewusst Leben</span>
+        <span>Bewusst Genießen</span>
+        <span>Bewusst Pflagen</span>
+        <span>Bewusst Wohlfühlen</span>
+        <span>Bewusst Handeln</span>
+        <span>Rezepte</span>
+      </div>
+      <div class="column">
+        <span>Sortiment</span>
+        <span>Unsere Marken</span>
+        <span>Exklusivmarken</span>
+        <span>Marken unserer Partner</span>
+      </div>
+      <div class="column">
+        <span>Services</span>
+        <span>Newsletter</span>
+        <span>Services vor Ort</span>
+        <span>Garabtien</span>
+        <span>Buchshop</span>
+      </div>
+      <div class="column">
+        <span>Unternehmen</span>
+        <span>Profil</span>
+        <span>Historie</span>
+        <span>Werte</span>
+        <span>Arbeiten bei Globus</span>
+        <span>Presse</span>
+        <span>Standortanforderungen</span>
+        <span>Neue</span>
+        <span>Ansiedlungsprojekte</span>
+      </div>
+      <div class="column">
+        <span>Mein Globus</span>
+        <span>Weinliebhaber Club</span>
+        <span>Weltentdecker Club</span>
+        <span>Tankeschön</span>
+      </div>
+      <div class="column">
+        <span>Globus-Gruppe</span>
+        <span>Globus Baumarkt</span>
+        <span>Alphatecc</span>
+        <span>Globus russland</span>
+        <span>Globus Tschechien</span>
+        <span>Mein fridel</span>
+      </div>
+    </div>
+
+    <div class="third">
+      <span>Impressum</span>
+      <span>Datenschulz</span>
+    </div>
+
+  </footer>
+
+  <div class="side-menu-ap">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-cutlery"></i>
+    <i class="fa fa-map-marker"></i>
+    <i class="fa fa-pencil"></i>
+    <i class="fa fa-phone"></i>
+  </div>
+
+</body>
+
+</html>
