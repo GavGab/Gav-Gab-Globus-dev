@@ -913,7 +913,7 @@ main {
 
 .section2 .article2 .section-content .swiper-container {
   width: 100%;
-  height: 150px;
+  height: 100px;
 }
 
 .section2 .article2 .section-content .swiper-container .swiper-slide {
@@ -941,14 +941,18 @@ main {
 
 .section2 .article2 .section-content .swiper-container .swiper-slide .desc .title1 {
   word-break: break-word;
+  font-size: 10px;
+  font-weight: bold;
 }
 
 .section2 .article2 .section-content .swiper-container .swiper-slide .desc .title2 {
   word-break: break-word;
+  font-size: 8px;
+  color: #555555;
 }
 
 .section2 .article2 .section-content .swiper-container .arrow {
-  color: black;
+  color: #555555;
 }
 
 .section2 .article2 .section-content .slider {
@@ -1146,8 +1150,9 @@ footer img {
           transform: rotate(1300deg);
 }
 
-footer img span {
+footer p {
   color: white;
+  font-size: 8px;
 }
 
 footer .second {
@@ -1158,7 +1163,7 @@ footer .second {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 footer .second .column {
@@ -1191,7 +1196,7 @@ footer .third {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  margin-top: 26px;
+  margin-bottom: 10px;
   color: white;
   font-size: 8px;
   text-decoration: underline;

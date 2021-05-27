@@ -744,7 +744,7 @@ main {
 
       .swiper-container {
         width: 100%;
-        height: 150px;
+        height: 100px;
 
         .swiper-slide {
           background-position: top;
@@ -761,16 +761,20 @@ main {
 
             .title1 {
               word-break: break-word;
+              font-size: 10px;
+              font-weight: bold;
             }
 
             .title2 {
               word-break: break-word;
+              font-size: 8px;
+              color: #555555;
             }
           }
         }
 
         .arrow {
-          color: black;
+          color: #555555;
         }
       }
 
@@ -930,20 +934,19 @@ footer {
   img {
     width: 25px;
     height: 30px;
-    transform: rotate(1300deg);
+    transform: rotate(1300deg)
 
-    span {
-      color: white;
-
-    }
-
+  }
+  p{
+    color:white;
+    font-size: 8px;
   }
 
   .second {
     width: 60%;
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
+    margin-top: 5px;
 
     .column {
       // margin: 0 10px;
@@ -970,7 +973,7 @@ footer {
     width: 60%;
     display: flex;
     justify-content: flex-end;
-    margin-top: 26px;
+    margin-bottom: 10px;
     color: white;
     font-size: 8px;
     text-decoration: underline;
