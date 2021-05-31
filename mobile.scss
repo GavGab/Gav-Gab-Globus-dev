@@ -1,0 +1,172 @@
+@media only screen and(max-width: 480px) {
+  .section1 {
+    height: 145vh;
+
+    .section-content {
+      width: 98%;
+
+      .item-box {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        overflow: visible;
+
+        .image-wrapper {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          max-width: 40%;
+          max-height: 225px;
+          //@at-root
+          max-width: 90%;
+        }
+
+        .details {
+          padding: 5px 10px 10px 5px;
+          border-radius: 10px;
+
+          .third {
+            flex-direction: column;
+            justify-content: center;
+
+            .right {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              button {
+                margin: 5px;
+                width: 70px;
+                height: 40px;
+                font-size: 18px;
+              }
+            }
+          }
+
+          .fifth {
+            .center {
+              button input {
+                width: 25px;
+                height: 25px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .paragraph {
+      margin-top: 40px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      color: white;
+
+      h4 {
+        font-size: 18px;
+      }
+
+      p {
+        font-size: 15px;
+      }
+    }
+
+    .cards {
+      margin-top: 10px;
+      //@at-root
+      justify-content: space-around;
+
+      .card {
+
+        img {
+          width: 60px;
+          height: 60;
+        }
+
+        span {
+          font-size: 10px;
+          margin: 5px;
+        }
+      }
+    }
+
+  }
+
+  .section2 {
+    .article1 {
+      .section-content {
+        width: 98%;
+
+        header {
+          ul {
+            li {
+              font-size: 14px;
+              padding: 15px 8px;
+            }
+          }
+        }
+
+        .display {
+          .content {
+            .rows {
+              width: 55%;
+            }
+
+            .description {
+              width: 45%;
+
+              .wrap {
+                width: auto;
+                margin-left: 20px;
+
+                h2 {
+                  font-size: 16px;
+                }
+
+                button {}
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .section2 {
+    .article2 {
+      .section-content {
+        width: 98%;
+      }
+    }
+  }
+}
+
+footer {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .second {
+    display: flex;
+    flex-direction: column;
+
+    .column {
+      margin: 0;
+
+      span {
+        font-size: 16px;
+
+        &:first-child {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+
+  .third {
+    span {
+      font-size: 16px;
+    }
+  }
+}

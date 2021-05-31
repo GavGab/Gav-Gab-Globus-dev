@@ -1,0 +1,163 @@
+@media only screen and (max-width: 480px) {
+  .section1 {
+    height: 145vh;
+  }
+  .section1 .section-content {
+    width: 98%;
+  }
+  .section1 .section-content .item-box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    overflow: visible;
+  }
+  .section1 .section-content .item-box .image-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    max-width: 40%;
+    max-height: 225px;
+    max-width: 90%;
+  }
+  .section1 .section-content .item-box .details {
+    padding: 5px 10px 10px 5px;
+    border-radius: 10px;
+  }
+  .section1 .section-content .item-box .details .third {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .section1 .section-content .item-box .details .third .right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .section1 .section-content .item-box .details .third .right button {
+    margin: 5px;
+    width: 70px;
+    height: 40px;
+    font-size: 18px;
+  }
+  .section1 .section-content .item-box .details .fifth .center button input {
+    width: 25px;
+    height: 25px;
+  }
+  .section1 .paragraph {
+    margin-top: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    color: white;
+  }
+  .section1 .paragraph h4 {
+    font-size: 18px;
+  }
+  .section1 .paragraph p {
+    font-size: 15px;
+  }
+  .section1 .cards {
+    margin-top: 10px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .section1 .cards .card img {
+    width: 60px;
+    height: 60;
+  }
+  .section1 .cards .card span {
+    font-size: 10px;
+    margin: 5px;
+  }
+  .section2 .article1 .section-content {
+    width: 98%;
+  }
+  .section2 .article1 .section-content header ul li {
+    font-size: 14px;
+    padding: 15px 8px;
+  }
+  .section2 .article1 .section-content .display .content .rows {
+    width: 55%;
+  }
+  .section2 .article1 .section-content .display .content .description {
+    width: 45%;
+  }
+  .section2 .article1 .section-content .display .content .description .wrap {
+    width: auto;
+    margin-left: 20px;
+  }
+  .section2 .article1 .section-content .display .content .description .wrap h2 {
+    font-size: 16px;
+  }
+  .section2 .article2 .section-content {
+    width: 98%;
+  }
+}
+
+footer {
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .second .column {
+  margin: 0;
+}
+
+footer .second .column span {
+  font-size: 16px;
+}
+
+footer .second .column span:first-child {
+  font-size: 20px;
+}
+
+footer .third span {
+  font-size: 16px;
+}
+/*# sourceMappingURL=mobile.css.map */
